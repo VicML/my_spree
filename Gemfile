@@ -56,3 +56,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+#gem 'spree_out_of_stock_report', path: '../spree_out_of_stock_report'
+
+gem 'spree_out_of_stock_report', :git => 'https://github.com/VicML/spree_out_of_stock_report.git'

@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/VicML/spree_out_of_stock_report.git
+  revision: 62233216fe89a03d1a0495f0e2360070361abf7a
+  specs:
+    spree_out_of_stock_report (0.0.1.alpha)
+      spree_core (>= 3.1.0, < 4.0)
+      spree_extension
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -373,6 +381,7 @@ DEPENDENCIES
   spree (~> 3.3)
   spree_auth_devise (~> 3.3)
   spree_gateway (~> 3.3)
+  spree_out_of_stock_report!
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
