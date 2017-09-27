@@ -1,6 +1,5 @@
-GIT
-  remote: https://github.com/VicML/spree_out_of_stock_report.git
-  revision: 62233216fe89a03d1a0495f0e2360070361abf7a
+PATH
+  remote: ../spree_out_of_stock_report
   specs:
     spree_out_of_stock_report (0.0.1.alpha)
       spree_core (>= 3.1.0, < 4.0)
@@ -153,7 +152,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.6)
       mime-types (>= 1.16, < 4)
-    method_source (0.8.2)
+    method_source (0.9.0)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
